@@ -13,8 +13,7 @@ function PieChart({ chartData }: LineProps) {
       <h2 className="chart-heading">Pie Chart</h2>
       <Pie
         data={chartData}
-        width={20}
-        height={15}
+        className="chart"
         options={{
           plugins: {
             title: {

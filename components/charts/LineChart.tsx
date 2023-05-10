@@ -12,6 +12,7 @@ function LineChart({ chartData }: LineProps) {
       <h2 className="chart-heading">Line Chart</h2>
       <Line
         data={chartData}
+        className="chart"
         options={{
           plugins: {
             title: {

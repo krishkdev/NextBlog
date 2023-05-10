@@ -130,6 +130,16 @@ const Dashboard = ({ setIsLoggedIn }: DashboardProps) => {
             </div>
           </div>
         </div>
+        <form className={styles.searchformmobile}>
+          <input
+            type="search"
+            placeholder="Search..."
+            className={styles.searchbox}
+          />
+          <button type="submit" className={styles.searchbtn}>
+            Search
+          </button>
+        </form>
         <div className={styles.pricecards}>
           {pricecardlists.map((lists) => (
             <div
