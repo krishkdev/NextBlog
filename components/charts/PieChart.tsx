@@ -23,7 +23,7 @@ function PieChart({ chartData }: LineProps) {
               align: "start",
             },
             legend: {
-              display: false,
+              display: true,
             },
           },
         }}
